@@ -1,4 +1,4 @@
-FROM gtron/jenkins-slave-docker
+FROM gtron/jenkins-slave
 MAINTAINER Gianluca Mereu <docker@gianlucamereu.it>
 
 #RUN apk upgrade --update  && \
