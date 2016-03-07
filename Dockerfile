@@ -12,7 +12,6 @@ RUN \
 
 
 RUN apk upgrade --update  && \
-    apk add openjdk7-jre && \
-    apk del wget 
+    apk add openjdk7-jre 
 
 CMD "/startup.sh"
